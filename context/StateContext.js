@@ -114,8 +114,32 @@ export const StateContext = ({ children }) => {
 	let foundProduct;
 	let index;
 
+	useEffect(() => {
+		if (localStorage.getItem("cartItems") == 0) return;
+		console.log("hi");
+		setCartItems(JSON.parse(localStorage.getItem("cartItems")));
+		setTotalPrice(JSON.parse(localStorage.getItem("totalPrice")));
+		setTotalQuantities(JSON.parse(localStorage.getItem("totalQuantities")));
+	}, []);
+
+	useEffect(() => {
+		if (!cartItems) {
+			setShowCart(false);
+			setCartItems([]);
+			setTotalPrice(0);
+			setTotalQuantities(0);
+			setQty(1);
+			return;
+		}
+		localStorage.setItem("cartItems", JSON.stringify(cartItems));
+		localStorage.setItem("totalPrice", JSON.stringify(totalPrice));
+		localStorage.setItem("totalQuantities", JSON.stringify(totalQuantities));
+	}, [cartItems, totalPrice, totalQuantities]);
+
 	const onAdd = (product, quantity) => {
-		const checkProductInCart = cartItems.find(
+		// console.log(cartItems);
+
+		const checkProductInCart = cartItems?.find(
 			(item) => item._id === product._id
 		);
 

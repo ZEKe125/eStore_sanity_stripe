@@ -7,7 +7,7 @@ function Layout({ children }) {
 	return (
 		<div className="layout">
 			<Head>
-				<title>JS Master Zeke's Store</title>
+				<title>Zeke's Supply Co.</title>
 			</Head>
 			<header>
 				<Navbar />

@@ -7,19 +7,19 @@ const Home = ({ products, bannerData }) => {
 	return (
 		<div>
 			<HeroBanner heroBanner={bannerData[0] && bannerData[0]} />
-			{console.log(bannerData)}
+			{/* {console.log(bannerData)} */}
 			<div className="products-heading">
 				<h2>Best Selling Products</h2>
 				<p>Great Speakers with Style</p>
 			</div>
 			<div className="products-container">
-				{console.log(products)}
+				{/* {console.log(products)} */}
 				{products &&
 					products.map((product) => (
 						<Product key={product._id} product={product} />
 					))}
 			</div>
-			<FooterBanner footerBanner = {bannerData && bannerData[0]}/>
+			<FooterBanner footerBanner={bannerData && bannerData[0]} />
 		</div>
 	);
 };

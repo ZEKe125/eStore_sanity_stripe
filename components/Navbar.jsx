@@ -6,10 +6,11 @@ import { useStateContext } from "../context/StateContext";
 
 function Navbar() {
 	const { showCart, setShowCart, totalQuantities } = useStateContext();
+	const storeName = "Zeke's Supply Co.";
 	return (
 		<div className="navbar-container">
-			<p>
-				<Link href="/"> JSM Zeke's Electronocs</Link>
+			<p className="nav-title">
+				<Link href="/">{storeName}</Link>
 			</p>
 
 			<button
