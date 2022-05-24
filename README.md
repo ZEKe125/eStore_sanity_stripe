@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+
+## to see LIVE STORE
+https://ecommerce-rouge-iota.vercel.app/
+
 First, run the development server:
 
 ```bash
