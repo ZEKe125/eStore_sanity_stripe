@@ -4,10 +4,12 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 function Layout({ children }) {
+	const storeName = "Zeke's Supply Co.";
+
 	return (
 		<div className="layout">
 			<Head>
-				<title>Zeke's Supply Co.</title>
+				<title>{storeName}</title>
 			</Head>
 			<header>
 				<Navbar />
