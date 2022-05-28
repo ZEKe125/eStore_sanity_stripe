@@ -1,11 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
 
 
-## to see LIVE STORE
+## ZEKE SUPPLY CO. Project
+<img src="https://user-images.githubusercontent.com/82134360/170843815-2f94bbe1-c2f9-4dd9-908c-0a3c94fe0dd2.png" height="150" >
+<img src="https://user-images.githubusercontent.com/82134360/170843843-de7dcda6-e6bd-48aa-8ece-eb7f36950590.png" width="300" ><img src="https://user-images.githubusercontent.com/82134360/170843814-984ed6d2-375c-42de-a9d2-8e2983fe396e.png" height="150" >
+
+## See LIVE STORE
 https://ecommerce-rouge-iota.vercel.app/
 
+## Description
+This ecommerced Website was built using NExt.js a react framework. It uses APIs and react Hooks, useState, useEffect, useContext etc.
+Application state is haldled using react Context Hook. The content is managed using Sanity CMS, and payments are fully funtional using Stripe Payments.
+
+
+## Getting Started
 First, run the development server:
 
 ```bash
