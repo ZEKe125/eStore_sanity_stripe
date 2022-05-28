@@ -5,7 +5,7 @@
 <img src="https://user-images.githubusercontent.com/82134360/170843843-de7dcda6-e6bd-48aa-8ece-eb7f36950590.png" width="300" ><img src="https://user-images.githubusercontent.com/82134360/170843814-984ed6d2-375c-42de-a9d2-8e2983fe396e.png" height="150" >
 
 ## See LIVE STORE
-https://ecommerce-rouge-iota.vercel.app/
+https://ecommerce-zeke125.vercel.app
 
 ## Description
 This e-commerce Website was built using NExt.js react framework, and react functional components. It uses APIs and React hooks, useState, useEffect, useContext, etc. Application state is handled using react Context Hook. The content is managed using Sanity CMS, and payments are fully functional using Stripe Payments.
