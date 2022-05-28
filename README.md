@@ -8,8 +8,7 @@
 https://ecommerce-rouge-iota.vercel.app/
 
 ## Description
-This ecommerced Website was built using NExt.js a react framework. It uses APIs and react Hooks, useState, useEffect, useContext etc.
-Application state is haldled using react Context Hook. The content is managed using Sanity CMS, and payments are fully funtional using Stripe Payments.
+This e-commerce Website was built using NExt.js react framework, and react functional components. It uses APIs and React hooks, useState, useEffect, useContext, etc. Application state is handled using react Context Hook. The content is managed using Sanity CMS, and payments are fully functional using Stripe Payments.
 
 
 ## Getting Started
