@@ -190,6 +190,9 @@ span.text-red {
 	height: auto;
 }
 
+
+
+
 .desc {
 	position: absolute;
 	right: 10%;
@@ -634,10 +637,10 @@ span.text-red {
 		height: 560px;
 	}
 	.hero-banner-image {
-		width: 77%;
+		width: 65%;
 		height: auto;
-		top: -2%;
-		right: -6%;
+		top: 25%;
+		right: 0%;
 	}
 	.footer-banner-container {
 		height: 560px;
